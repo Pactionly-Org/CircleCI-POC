@@ -16,7 +16,7 @@ jobs:
           command: |
             echo 'Hello World!'
             echo 'This is the delivery pipeline'
-            echo $TEST_SECRET
+            echo "This is a fake secret: $TEST_SECRET"
 
 workflows:
   # Name the workflow "welcome"
